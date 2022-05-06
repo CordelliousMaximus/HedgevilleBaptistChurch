@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+}
+
+
+h1 {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-weight: bold;
+}
+
+.col-sm {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+.motto-container {
+  text-align: center;
+  justify-content: center;
+}
+
+.motto h1 {
+  margin-top: 150px;
+  font-size: 64px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.card {
+  transition: 0.3s;
+  background-color:;
+}
+
+.card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 30rem;
+}
+
+.card-img-bottom {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.primary {
+  margin: auto; 
+  margin-bottom: 40px;
+}
+
+.secondary {
+  margin: auto; 
+  margin-bottom: 40px;
+}
+
+
+.front-page-info {
+  margin-top: 10vh;
+}
+
+nav {
+    padding-top: 10px;
+    box-shadow: 1px 2px 3px;
+}
+
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+}
+
+.navbar-collapse {
+  margin-left: 20px;
+}
+
+.slide-in {
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+
+.about-head {
+  margin-top: 150px;
+}
+
+
+.about-column p {
+  font-size: large;
+  text-align: left;
+  padding: 20px;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.belief {
+  font-weight: none;
+  text-align: left;
+  padding: 20px;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about-content {
+  font-size: large;
+  margin-left: -10px;
+}
+
+.about-headings {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;;
+}
+
+.images {
+  max-width: 80vw;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.content {
+  width: 50vw;
+}
+
+.contact-box {
+  max-width: 750px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-left: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  padding-top: 15px
+}
+
+.contact-box h2 {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.submit-query-box {
+  max-width: 750px;
+  max-height: fit-content;
+  margin: auto;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top: 10px;
+}
+
+.input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.query {
+  height: 500px;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 500px;
+  height: 200px;
+}
+
+.submit-button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-box {
+    width: 350px;
+  }
+
+  .input {
+    width: 250px;
+  }
+
+  textarea {
+    width: 250px;
+  }
+
+  .submit-query-box {
+    max-width: 350px;
+  }
+
+  .map-box {
+    width: 350px;
+  }
+
+  .about-image-lower {
+    width: 350px;
+  }
+
+}
+
+
+.wrapper {
+  margin: auto;
+  text-align: center;
+}
+
+.large-map {
+  width: 500px;
+  height: 350px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about-image-lower {
+  width: 80vw; 
+  margin-top: 30px;
+}
+
+.links {
+  cursor: pointer;
+}
